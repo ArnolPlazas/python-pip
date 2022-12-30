@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 def generate_pie_chart(labels, values):
     fig, ax = plt.subplots()
     ax.pie(values, labels = labels)
-    plt.savefig(f'./imgs/pie.png')
+    plt.savefig(f'./imgs/pie_by_continent_final.png')
     plt.close()
 
 
